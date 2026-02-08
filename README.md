@@ -1,4 +1,4 @@
-# LeetCode Likes & Dislikes Overlay
+# Return LeetCode Dislikes
 
 A lightweight Chrome extension that displays **likes and dislikes** on LeetCode problem pages by extracting **hydrated client state**, without making additional network requests.
 
