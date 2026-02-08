@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "LeetCode Likes/Dislikes (Basic)",
+  "version": "0.1.0",
+  "description": "Shows likes/dislikes on LeetCode problem pages by reading embedded page state.",
+  "permissions": [],
+  "host_permissions": ["https://leetcode.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://leetcode.com/problems/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
